@@ -17,13 +17,12 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="<?= $webroot?>"">Home</a></li>
+                <li class="active"><a href="<?= $webroot.'aPages/aHome/ahome.php'?>"">Home</a></li>
 
                 <li><a href="<?= $webroot.'pages/about/about.php'?>">About</a></li>
 
-                <li> <a href="<?=$webroot.'pages/login/log.php'?>"> Logout </a></li>
-
+                <li> <a href="<?=$webroot.'pages/login/logout.php'?>">Logout </a></li>
             </ul>
-        </div><!--/.nav-collapse -->
+        </div>
     </div>
 </nav>

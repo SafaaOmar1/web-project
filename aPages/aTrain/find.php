@@ -1,7 +1,14 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: safaa
- * Date: 4/28/2017
- * Time: 4:15 PM
- */
+if (!isset($webroot)){
+    $webroot = "../../";
+}
+
+?>
+<form class="form-inline" action="<?=$webroot?>aPages/aTrain/sv.php" method="get">
+    <div class="form-group">
+        <label for="exampleInputName2">ID</label>
+        <input  name="id" type="text" class="form-control" id="exampleInputName2" placeholder="Jane ">
+    </div>
+
+    <button type="submit" class="btn btn-default">Search</button>
+</form>

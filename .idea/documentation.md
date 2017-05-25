@@ -24,3 +24,25 @@ as an Admin i must be able to
 2 add/edit /delete company 
 
 ===================================
+
+Campaign page . 
+
+as a client , i must be able to list availiable/published campaigns for all companies in a period of time , i must be able to filter result , such that see campaigns from a specific company.  ==> Table 
+
+i must be able to regiter / join a campaign after i click on it. ==> button to open form / another button to enlarge image. 
+
+so i need a registration form for that campaign. 
+
+i must enter my Name, Phone, SSId, Email, .. ...  accept terms , submit it. 
+
+======================================
+
+As an Admin , i must be able to 
+1. list campaigns. 
+2. open a campaign , update campaign  publish it, make it expired.
+2.1 for a campaign , i must be able to list join requests.  contiue work flow, make it accept/ reject it . 
+3. add campaign, so i must have campaign form . 
+
+
+
+========================================
